@@ -1,5 +1,17 @@
 # Third-party notices
 
+CS Rust Edition is MIT licensed (`LICENSE`, `NOTICE.md`). The components below are included in this
+repository or its builds under their own permissive licenses; each license file sits next to the code
+it covers. There is no GPL or LGPL code in this repository.
+
+## Horizon and Horizon Android (the base of this fork)
+
+The engine itself is [Horizon](https://github.com/horizon-rust/horizon) by Ludovic Marie and the
+Horizon contributors, through the Android port
+[Horizon Android](https://github.com/Vasysik/horizon-android) by Vasysik and contributors. Both are
+MIT licensed; the license text is this repository's `LICENSE`. Craft Studio's changes are listed in
+`CS-FORK-NOTES.md`.
+
 ## wgpu-hal
 
 `third_party/wgpu-hal` is [wgpu-hal](https://github.com/gfx-rs/wgpu) 30.0.1 by the gfx-rs
